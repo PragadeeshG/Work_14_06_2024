@@ -1,0 +1,16 @@
+create table if not exists purpose_of_document(
+id Integer not null,
+doc_classification varchar(255) null,
+iam_standard varchar(255) null,
+privilege_identifier varchar(255) null,
+valuting_system_code Integer null,
+is_valuted char null,
+is_one_valuted char null,
+access_type varchar(255) null,
+admin_code varchar(255) null,
+admin_user_created_time varchar(255) null,
+sso_without_mfa varchar(255) null,
+sso_with_mfa varchar(255) null,
+vault_generated_time varchar(255) null,
+entity_state varchar(255) null,
+constraint purpose_of_document_pk primary key(id));

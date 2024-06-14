@@ -1,0 +1,16 @@
+create table if not exists generic_id_approach(
+integrated_app_set_id Integer not null,
+saml varchar(255) null,
+open_id varchar(255) null,
+kong_api varchar(255) null,
+updated_instruction varchar(255) null,
+dedicated_url_available char null,
+dedicated_url_path char null,
+qualified_dns char null,
+appendix_reference varchar(255) null,
+platform varchar(255) null,
+purpose Integer null,
+server_name varchar(255) null,
+app_name varchar(255) null,
+generic_id_name varchar(255) null,
+constraint generic_id_approach_pk primary key(integrated_app_set_id));
